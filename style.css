@@ -161,7 +161,7 @@ padding-bottom: 5%;
 
 /* end expertise-section by Ve */
 
-
+/* start team-section by Ve */
 
 #team-section {
 text-align: center;
@@ -281,6 +281,8 @@ background-size: cover;
     margin-top: 32px;
     }
 }
+
+/* end team-section by Ve */
 
 #contact-section {
 
