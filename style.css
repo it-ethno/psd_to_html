@@ -16,7 +16,6 @@ nav {
 }
 
 #hero-section {
-
 }
 
 #our_story-section {
@@ -284,6 +283,107 @@ background-size: cover;
 
 /* end team-section by Ve */
 
-#contact-section {
+/* start contact & clients section by ve */
 
+
+#contact-client-section {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
+#contact-form {
+    width: 350px;
+}
+
+#contact-client-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.contact-form {
+    border: 1px solid lightgray;
+    color: lightgrey;
+    font-size: 0.8em;
+    padding: 2%;
+    width: 70%;
+    margin-top: 1em;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid lightgray;
+    color: lightgrey;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    width: 70%;
+    height: 100px;
+    margin-top: 1em;
+}
+
+input[type=submit] {
+    border: 1px solid #61d8ca;
+    color: #61d8ca;
+    background-color: white;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 0.7em;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 1px;
+  }
+
+#logos {
+    display: grid;
+    row-gap: 25px;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+
+.logos img {
+    width: 90px;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 800px) {
+    #contact-client-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact-form {
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 48px;
+        padding-bottom: 48px;
+
+    }
+
+    #logos {
+       margin-bottom: 48px;
+    }
+    
+  }
+
+  /* end contact & clients section by ve */
+
+
+
