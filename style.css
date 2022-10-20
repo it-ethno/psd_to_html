@@ -1,36 +1,171 @@
 * {
-    margin: 0;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(240, 240, 240);
+  font-family: "Abril Fatface";
+  font-size: 1.75rem;
+  font-weight: lighter;
+}
+
+h4 {
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+header {
+  background-image: url("./assets/bgk-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 
 footer {
+  background-image: url("./assets/bgk-footer.png");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+}
 
+footer p {
+  max-width: 240px;
+  color: rgb(245, 245, 245);
+  font-family: "Abel";
+  line-height: 1.6em;
+  font-size: 0.9rem;
 }
 
 nav {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
 
+.divider {
+  border-bottom: 2px solid rgb(134 192 191);
+  margin: 10px;
+  width: 50px;
+  margin: 20px auto;
+}
+
+.footerLink {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: rgb(240, 240, 240);
+  font-size: 0.7rem;
+}
+.introText {
+  color: rgb(245, 245, 245);
+  width: 800px;
+  line-height: 1.6em;
+  font-family: "Abel";
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+.learnMoreButton {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(134, 192, 191);
+  width: 120px;
+  margin: 50px auto;
+  color: rgb(134, 192, 191);
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.menuLink {
+  color: rgb(240, 240, 240);
+  font-weight: 600;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.navLinkList {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinkList li {
+  display: inline-block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.7;
+}
+
+.socialMediaIcon {
+  width: 27px;
+  height: auto;
+}
+
+.studioInfo {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.subscribeInput {
+  background: transparent;
+  padding: 10px 10px;
+  border: 1px solid rgb(200, 200, 200);
+  color: rgb(240, 240, 240);
+  width: 150px;
+}
+
+.tajam {
+  font-size: 2rem;
+  font-family: Abel;
+
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(134, 192, 191, 1) 0%,
+    rgba(119, 230, 228, 1) 51%,
+    rgba(99, 147, 146, 1) 100%
+  );
+  background-clip: text;
 }
 
 #hero-section {
-
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 #our_story-section {
-
 }
 
 #watch-section {
-
 }
 
 #expertise-section {
-
 }
 
 #team-section {
-
 }
 
 #contact-section {
-
 }
-
