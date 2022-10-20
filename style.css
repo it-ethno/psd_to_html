@@ -25,6 +25,10 @@ header {
   height: 600px;
 }
 
+body {
+text-align: center;
+}
+
 footer {
   background-image: url("./assets/bgk-footer.png");
   height: 300px;
@@ -113,6 +117,365 @@ nav {
   gap: 10px;
   opacity: 0.7;
 }
+
+/* start expertise-section by Ve */
+
+#expertise-section {
+display: inline-block;
+text-align: center;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+#expertise-section h2 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+#expertise-subheading {
+  font-size: 0.8em;
+  margin-top: 0.8em;
+}
+
+
+#expertise-line {
+  display: flex;
+  justify-content: center;
+}
+
+#expertise-line hr {
+  width: 50px;
+  margin-top: 0.9em;
+}
+
+#expertise-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  justify-content: center;
+  margin-top: 32px;
+  }
+
+#expertise-blocks div {
+    height: 150px;
+    max-width: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+
+#expertise-blocks img {
+  height: 2rem;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+}
+
+#expertise-blocks h3 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.03em;
+  font-size: 0.7em;
+  margin-bottom: 1.5em;
+}
+
+#expertise-blocks p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 0.7em;
+}
+
+#exp1 {
+  border-bottom: 1px solid lightgray;
+  }
+
+#exp2 {
+  border-bottom: 1px solid lightgray;
+  border-left:1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+#exp3 {
+  border-bottom: 1px solid lightgray;
+}
+
+#exp5 {
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+
+@media only screen and (max-width: 800px) {
+  #expertise-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    }
+
+    #exp1 {
+      border-top: 0px;
+      border-right: 0px;
+      border-left: 0px;
+      border-bottom: 1px solid lightgray;
+      }
+  
+    #exp2 {
+      border-top: 0px;
+      border-right: 0px;
+      border-left: 0px;
+      border-bottom: 1px solid lightgray;
+    }
+  
+    #exp3 {
+      border-top: 0px;
+      border-right: 0px;
+      border-left: 0px;
+      border-bottom: 1px solid lightgray;
+    }
+
+    #exp4 {
+      border-top: 0px;
+      border-right: 0px;
+      border-left: 0px;
+      border-bottom: 1px solid lightgray;
+    }
+  
+    #exp5 {
+      border-top: 0px;
+      border-right: 0px;
+      border-left: 0px;
+      border-bottom: 1px solid lightgray;
+    }
+}
+
+
+/* end expertise-section by Ve */
+
+/* start team-section by Ve */
+
+#team-section {
+text-align: center;
+display: flex;
+flex-direction: column;
+padding-top: 5%;
+padding-bottom: 5%;
+background-image: url("src/bgk-header.png");
+background-size: cover;
+}
+
+#team-section h2 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  text-align: center;
+  color: white;
+}
+
+#team-subheading {
+  font-size: 0.8em;
+  margin-top: 0.8em;
+  color: white;
+}
+
+
+#team-line {
+  display: flex;
+  justify-content: center;
+}
+
+#team-line hr {
+  width: 50px;
+  margin-top: 0.9em;
+}
+
+#team {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.team {
+  border: 1px solid white;
+  height: 200px;
+  width: 145px;
+  margin: 10px;
+  color: white;
+}
+
+.team-pic {
+  height: 75%;
+  background-color: white;
+}
+
+#team h3 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.03em;
+  font-size: 0.7em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+#team p {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.03em;
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+
+#team-foot {
+  margin-top: 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#team-foot p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.03em;
+  font-size: 0.7em;
+  font-weight: lighter;
+  color: white;
+}
+
+#hiring {
+  border: 1px solid turquoise;
+  margin-top: 16px;
+  text-align: center;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hiring p {
+  text-transform: uppercase;
+  color: turquoise;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 0.7em;
+  font-weight: lighter;
+  padding: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  #team {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    }
+}
+
+/* end team-section by Ve */
+
+/* start contact & clients section by ve */
+
+
+#contact-client-section {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#contact-form {
+    width: 350px;
+}
+
+#contact-client-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.contact-form {
+    border: 1px solid lightgray;
+    color: lightgrey;
+    font-size: 0.8em;
+    padding: 2%;
+    width: 70%;
+    margin-top: 1em;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid lightgray;
+    color: lightgrey;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    width: 70%;
+    height: 100px;
+    margin-top: 1em;
+}
+
+input[type=submit] {
+    border: 1px solid #61d8ca;
+    color: #61d8ca;
+    background-color: white;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 0.7em;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 1px;
+  }
+
+#logos {
+    display: grid;
+    row-gap: 25px;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+
+.logos img {
+    width: 90px;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 800px) {
+    #contact-client-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact-form {
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 48px;
+        padding-bottom: 48px;
+
+    }
+
+    #logos {
+       margin-bottom: 48px;
+    }
+    
+  }
+
+  /* end contact & clients section by ve */
 
 .socialMediaIcon {
   width: 27px;
