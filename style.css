@@ -61,7 +61,7 @@ nav {
 }
 
 .divider {
-  border-bottom: 2px solid rgb(134 192 191);
+  border-bottom: 2px solid #61d8ca;
   margin: 10px;
   width: 50px;
   margin: 20px auto;
@@ -79,18 +79,19 @@ nav {
   max-width: 800px;
   line-height: 1.6em;
   font-family: "Abel";
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 0.05em;
 }
 
 .learnMoreButton {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  border: 2px solid rgb(134, 192, 191);
-  width: 120px;
+  border: 2px solid #61d8ca;
+  width: 100px;
   margin: 50px auto;
-  color: rgb(134, 192, 191);
-  font-weight: 600;
+  color: #61d8ca;
+  font-weight: bold;
+  font-size: 0.7em;
   text-transform: uppercase;
   border-radius: 4px;
   cursor: pointer;
@@ -350,7 +351,8 @@ nav {
 }
 
 #hiring {
-  border: 1px solid turquoise;
+  border: 2px solid #61d8ca;
+  border-radius: 3px;
   margin-top: 16px;
   text-align: center;
   width: 120px;
@@ -361,7 +363,7 @@ nav {
 
 #hiring p {
   text-transform: uppercase;
-  color: turquoise;
+  color: #61d8ca;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.03em;
   font-size: 0.7em;
@@ -429,18 +431,19 @@ textarea {
 }
 
 input[type="submit"] {
-  border: 1px solid #61d8ca;
+  border: 2px solid #61d8ca;
   color: #61d8ca;
+  border-radius: 3px;
   background-color: white;
   padding: 8px;
   text-decoration: none;
+  font-weight: bold;
   cursor: pointer;
-  width: 80px;
+  width: 120px;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 0.03em;
   font-size: 0.7em;
-  font-weight: lighter;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-top: 1em;
   border-radius: 1px;
@@ -534,16 +537,15 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   margin: 48px auto;
-  gap: 60px;
+  gap: 80px;
 }
 
 #logo {
-  width: 200px;
+  width: 180px;
 }
 
 #logo img {
-  width: 200px;
-  padding-top: 10px;
+  width: 180px;
 }
 
 #story {
@@ -573,7 +575,7 @@ input[type="submit"] {
 #learn {
   border: 2px solid turquoise;
   text-align: center;
-  width: 120px;
+  width: 100px;
   border-radius: 3px;
 }
 
@@ -632,4 +634,12 @@ input[type="submit"] {
   left: 50%;
   align-content: center;
   padding: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    #logo img {
+    width: 200px;
+    padding-top: 10px;
+    margin-right: 0px;
+  }
 }
