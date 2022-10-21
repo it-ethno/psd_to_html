@@ -127,8 +127,8 @@ nav {
 #expertise-section {
   display: inline-block;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 #expertise-section h2 {
@@ -176,9 +176,15 @@ nav {
 #expertise-blocks h3 {
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
   font-size: 0.7em;
   margin-bottom: 1.5em;
+  color: rgb(60, 60, 60);
+}
+
+.expertise-headImage {
+  opacity: 0.5;
 }
 
 #expertise-blocks p {
@@ -473,7 +479,9 @@ input[type="submit"] {
     margin-bottom: 48px;
   }
 }
-
+#expertise-section p {
+  color: rgb(100, 100, 100);
+}
 /* end contact & clients section by ve */
 
 .socialMediaIcon {
