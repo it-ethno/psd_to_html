@@ -154,14 +154,14 @@ nav {
 #expertise-blocks {
   display: flex;
   flex-wrap: wrap;
-  max-width: 700px;
+  max-width: 800px;
   justify-content: center;
   margin-top: 32px;
 }
 
 #expertise-blocks div {
   height: 150px;
-  max-width: 200px;
+  max-width: 230px;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 32px;
@@ -305,8 +305,8 @@ nav {
 
 .team {
   border: 1px solid white;
-  height: 200px;
-  width: 145px;
+  height: 230px;
+  width: 180px;
   margin: 10px;
   color: white;
 }
@@ -393,10 +393,11 @@ nav {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: left;
+  max-width: 800px;
 }
 
 #contact-form {
-  width: 410px;
+  width: 500px;
 }
 
 #contact-client-section h2 {
@@ -454,7 +455,7 @@ input[type="submit"] {
 }
 
 .logos img {
-  width: 90px;
+  width: 120px;
   padding: 1%;
 }
 
@@ -550,6 +551,7 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 30px;
 }
 
 #story h2 {
@@ -618,7 +620,9 @@ input[type="submit"] {
   left: 48%;
   visibility: visible;
   padding: auto;
+  cursor: pointer;
 }
+
 .icon {
   cursor: pointer;
   display: flex;
