@@ -521,17 +521,100 @@ input[type=submit] {
 }
 
 
-#our_story-section {
+#our_Story-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 700px;
+  margin: 48px auto;
 }
+
+#logo {
+  width: 200px;
+  margin-right: 100px;
+}
+
+#logo img {
+  width: 200px;
+  padding-top: 10px;
+}
+
+#story {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+}
+
+#story h2 {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.story-text {
+  margin-bottom: 16px;
+  font-size: 0.8em;
+}
+
+#learn {
+  border: 1px solid turquoise;
+  text-align: center;
+  width: 120px;
+}
+
+#learn p {
+  text-transform: uppercase;
+  color: turquoise;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-weight: lighter;
+  padding: 8px;
+}
+
 
 #watch-section {
+  background-image: url("src/bgk-middle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#expertise-section {
+.video h3 {
+  text-transform: uppercase;
 }
 
-#team-section {
+
+.background {
+   display: flex;
+   justify-content: baseline;
+   display: contents;
+   padding-bottom: 0%;
 }
 
-#contact-section {
+.video {
+  display: flex;
+  color: white;
+  text-align: center ;
+  top: 80%;
+  left: 48%;
+  visibility: visible;
+  padding: auto;
+}
+.icon {
+   cursor: pointer;
+   display: flex;
+   content: icon;
+   color: white;
+   top: 65%;
+   left: 50%;
+   align-content: center;
+   padding: auto;
 }
